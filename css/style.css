@@ -82,10 +82,8 @@ body {
 
 .order-btn {
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
 
-  text-align: center;
+  font-size: 16px;
   letter-spacing: 0.06em;
   color: #ffffff;
 
@@ -133,7 +131,8 @@ body {
   color: #757575;
 }
 
-.features-title {
+.features-title,
+.portfolio li {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -156,6 +155,7 @@ body {
 
 /* ---- TEAM ---- */
 
+.portfolio-list,
 .team-list h3 {
   font-weight: 500;
   font-size: 16px;

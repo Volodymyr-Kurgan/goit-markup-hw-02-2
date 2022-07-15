@@ -34,7 +34,7 @@
           </li>
         </ul>
 
-        <ul>
+        <ul class="list">
           <li>
             <a class="mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -50,9 +50,11 @@
     </header>
 
     <main>
-      <!-- Фильтр -->
-      <div>
-        <ul>
+      <!-- Окрема секція Фільтр -->
+      <section>
+        <h1 class="visually-hidden">Фильтр портфолио</h1>
+
+        <ul class="list">
           <li>
             <button class="primary-btn" type="button">Все</button>
           </li>
@@ -61,83 +63,98 @@
           <li><button class="filter-btn" type="button">Дизайн</button></li>
           <li><button class="filter-btn" type="button">Маркетинг</button></li>
         </ul>
-      </div>
-      <section>
-        <h1 class="visually-hidden">Фильтр портфолио</h1>
-        <div class="portfolio">
-          <ul>
-            <li>
-              <img
-                src="./images/portfolio/project1.png"
-                alt="Ноутбук. На мониторе изображение трёх сотрудников."
-                width="370"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/portfolio/project2.png"
-                alt="Спортсмены играют в баскетбол."
-                width="370"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/portfolio/project3.png"
-                alt="Логотип ресторана. На фоне акулы название."
-                width="370"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/portfolio/project4.png"
-                alt="Большие наушники на голову."
-                width="370"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/portfolio/project5.png"
-                alt="На белом фоне два ящика."
-                width="370"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/portfolio/project6.png"
-                alt="Стационарный монитор с картой Мира на тёмном фоне."
-                width="370"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/portfolio/project7.png"
-                alt="Раскрытый глянцевый журнал. Справа девушка сушит волосы феном. Справа две девушки машут руками в небо."
-                width="370"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/portfolio/project8.png"
-                alt="Чёрные буквы на белой бирке, бирка на верёвке, всё это на белом фоне."
-                width="370"
-              />
-            </li>
-            <li>
-              <img
-                src="./images/portfolio/project9.png"
-                alt="Вид сверху. Ноутбук и видно только руки на клавиатуре."
-                width="370"
-              />
-            </li>
-          </ul>
-        </div>
+
+        <ul class="portfolio-list list">
+          <li>
+            <img
+              src="./images/portfolio/project1.png"
+              alt="Ноутбук. На мониторе изображение трёх сотрудников."
+              width="370"
+            />
+            <h3>Технокряк</h3>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/project2.png"
+              alt="Спортсмены играют в баскетбол."
+              width="370"
+            />
+            <h3>Постер<span lang="en"> New Orlean vs Golden Star</span></h3>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/project3.png"
+              alt="Логотип ресторана. На фоне акулы название."
+              width="370"
+            />
+            <h3>Ресторан<span lang="en"> Seafood</span></h3>
+            <p>Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/project4.png"
+              alt="Большие наушники на голову."
+              width="370"
+            />
+            <h3>Проект <span lang="en"> Prime</span></h3>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/project5.png"
+              alt="На белом фоне два ящика."
+              width="370"
+            />
+            <h3>Проект <span lang="en"> Boxes </span></h3>
+            <p>Приложение</p>
+          </li>
+
+          <li>
+            <img
+              src="./images/portfolio/project6.png"
+              alt="Стационарный монитор с картой Мира на тёмном фоне."
+              width="370"
+            />
+            <h3>Inspiration has no Borders</h3>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/project7.png"
+              alt="Раскрытый глянцевый журнал. Справа девушка сушит волосы феном. Справа две девушки машут руками в небо."
+              width="370"
+            />
+            <h3>Издание <span lang="en"> Limited Edition</span></h3>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/project8.png"
+              alt="Чёрные буквы на белой бирке, бирка на верёвке, всё это на белом фоне."
+              width="370"
+            />
+            <h3>Проект <span lang="en"> LAB</span></h3>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio/project9.png"
+              alt="Вид сверху. Ноутбук и видно только руки на клавиатуре."
+              width="370"
+            />
+            <h3>Growing Business</h3>
+            <p>Приложение</p>
+          </li>
+        </ul>
       </section>
 
       <footer class="contacts">
         <a href="./index.html" class="logo-footer">Web <span>Studio</span> </a>
 
         <address>
-          <ul class="adress-list">
+          <ul class="adress-list list">
             <li>
               <a
                 class="adress-link"
