@@ -82,7 +82,7 @@ body {
 
 .order-btn {
   font-family: inherit;
-
+  font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -102,11 +102,20 @@ body {
 }
 
 .filter-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: #212121;
 }
 
@@ -127,7 +136,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 
@@ -146,7 +154,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 4.17;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -155,7 +163,13 @@ body {
 
 /* ---- TEAM ---- */
 
-.portfolio-list,
+.portfolio-list {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .team-list h3 {
   font-weight: 500;
   font-size: 16px;
